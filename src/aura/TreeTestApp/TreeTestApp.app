@@ -16,6 +16,6 @@
     </div>
     
     <div class="slds-m-around--x-large">
-    	<c:Tree header="{!v.treeHeader}" items="{!v.treeItems}" config="{!v.treeConfig}" />
+    	<ui_tree:Tree header="{!v.treeHeader}" items="{!v.treeItems}" config="{!v.treeConfig}" />
     </div>
 </aura:application>
