@@ -5,7 +5,7 @@
     <aura:attribute name="treeConfig" type="Map" default="{'labelProperties': ['Name'], 'expandProperties': ['Contacts'], 'isSelectable': true, 'isNodeSelectionEnabled': true, 'expandLevel': 1}" />
     
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
-    <aura:handler name="treeSelectionEvent" event="c:TreeSelectionEvent" action="{!c.handleTreeSelection}"/>
+    <aura:handler name="treeSelectionEvent" event="ui_tree:TreeSelectionEvent" action="{!c.handleTreeSelection}"/>
     
     <div class="slds-page-header" role="banner">
         <div class="slds-media slds-media--center">
