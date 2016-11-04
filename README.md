@@ -13,5 +13,5 @@ This project is a sample Lightning application that demonstrates the use of the 
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
 
-3. Test the app by accessing this URL with your domain:<br/>
+3. Access the application from this URL:<br/>
 https://<b>&lt;YOUR_DOMAIN_HERE&gt;</b>.lightning.force.com/ui_tree/TreeTestApp.app
