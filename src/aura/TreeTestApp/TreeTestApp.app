@@ -1,5 +1,7 @@
 <aura:application extends="force:slds" controller="TreeTestController">
     
+    <aura:dependency resource="markup://ui_tree:*" />
+    
     <aura:attribute name="treeHeader" type="String" default="Accounts &amp; Contacts"/>
     <aura:attribute name="treeItems" type="List"/>
     <aura:attribute name="treeConfig" type="Map" default="{'labelProperties': ['Name'], 'expandProperties': ['Contacts'], 'isSelectable': true, 'isNodeSelectionEnabled': true, 'expandLevel': 1}" />
