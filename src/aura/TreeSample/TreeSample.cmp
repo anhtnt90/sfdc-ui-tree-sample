@@ -1,4 +1,4 @@
-<aura:component implements="force:appHostable" controller="TreeSampleAppController" access="global">
+<aura:component implements="force:appHostable" controller="TreeSampleController" access="global">
 
 	<aura:attribute name="treeHeader" type="String" default="Accounts &amp; Contacts"/>
     <aura:attribute name="treeItems" type="List"/>
